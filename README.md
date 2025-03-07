@@ -52,7 +52,7 @@ DASH_API_KEY=YOUR_DASH_API_KEY python t2v_gradio_parallel.py
 
 注意：没有加DASH_API_KEY，提示词扩展功能不会生效
 
-[GPU运行情况.png](GPU运行情况)
+![GPU运行情况](GPU.png "GPU运行情况")
 
 [运行界面.png](运行界面)
 
