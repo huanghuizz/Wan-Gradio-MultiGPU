@@ -30,21 +30,27 @@ pip install -r requirements.txt
 ```
 
 ### 下载模型
+Download models using 🤖 modelscope-cli:
 
-在运行前，请确保已下载相应的模型文件，并放置在正确的路径下：
+```bash
+pip install modelscope
+modelscope download Wan-AI/Wan2.1-T2V-1.3B --local_dir ./Wan2.1-T2V-1.3B
+modelscope download Wan-AI/Wan2.1-T2V-14B --local_dir ./Wan2.1-T2V-14B
+```
 
-- t2v-1.3B: `./Wan2.1-T2V-1.3B`
-- t2v-14B: `./Wan2.1-T2V-14B`
-- i2v-14B-480P: `./Wan2.1-I2V-14B-480P`
-- i2v-14B-720P: `./Wan2.1-I2V-14B-720P`
+### 安装Wan-Gradio-MultiGPU
+将t2v_gradio_parallel.py和generate_multi_gpu.py下载放在Wan2.1的根目录
+
 
 ### 启动界面
 
 ```bash
-python Wan2.1/gradio/t2v_gradio_parallel.py
+DASH_API_KEY=YOUR_DASH_API_KEY python t2v_gradio_parallel.py
 ```
 
 启动后，访问 `http://localhost:7860` 即可打开界面。
+
+注意：没有加DASH_API_KEY，提示词扩展功能不会生效
 
 ## 功能特点
 
