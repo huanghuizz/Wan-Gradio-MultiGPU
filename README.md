@@ -41,6 +41,9 @@ modelscope download Wan-AI/Wan2.1-T2V-14B --local_dir ./Wan2.1-T2V-14B
 ### 安装Wan-Gradio-MultiGPU
 将t2v_gradio_parallel.py和generate_multi_gpu.py下载放在Wan2.1的根目录
 
+- {你机器安装Wan的目录}/Wan2.1/t2v_gradio_parallel.py
+- {你机器安装Wan的目录}/Wan2.1/generate_multi_gpu.py
+
 
 ### 启动界面
 
