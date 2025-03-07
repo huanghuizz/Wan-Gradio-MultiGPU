@@ -59,6 +59,10 @@ DASH_API_KEY=YOUR_DASH_API_KEY python t2v_gradio_parallel.py
 
 ![运行界面](UI.png "运行界面")
 
+## 提示词建议
+使用：(中景，半身，背景模糊，8k)提示词，在1.3b模型下也能跑出高质量的视频
+
+
 
 ## 功能特点
 
