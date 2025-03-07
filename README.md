@@ -54,7 +54,8 @@ DASH_API_KEY=YOUR_DASH_API_KEY python t2v_gradio_parallel.py
 
 ![GPU运行情况](GPU.png "GPU运行情况")
 
-[运行界面.png](运行界面)
+![运行界面](UI.png "运行界面")
+
 
 ## 功能特点
 
